@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    char line[20];  // Assuming the numbers won't exceed 20 characters
+    char line[20];  
     while (fgets(line, sizeof(line), file) != NULL) {
         int number = atoi(line);
         factorize(number);
